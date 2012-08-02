@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<bannerlist path="includes/banners" width="694" height="195" speed="2000" timeout="6500" bgcolor="#ffffff">
+  <banner>
+	<title>De click aquí para consultar más información....</title>
+	<image>1.png</image>
+  </banner>
+  <banner>
+	<title>2</title>
+	<image>2.png</image>
+  </banner>
+  <banner>
+	<title>3</title>
+	<image>3.png</image>
+  </banner>
+  <banner>
+	<title>4</title>
+	<image>4.png</image>
+  </banner>
+</bannerlist>

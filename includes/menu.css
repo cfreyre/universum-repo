@@ -1,0 +1,361 @@
+/* Head links */
+
+/* #topbar { width:672px;} */
+
+	#topbar ul { 
+				list-style: none; 
+				position:relative; left:187px; top:35px;
+				}
+
+
+	#topbar li.headlink { 
+
+		float: left; 
+		color:#1a74ba;
+	}
+
+	#topbar li.first { 
+
+		color:#1a74ba;
+	}
+
+		
+
+	#topbar li.headlink a { 
+
+		display: block;
+
+		text-align: center;		 
+
+		padding: 12px 0px; 
+
+		/* font: 12px Helvetica; */
+		
+		font: 14px "Helvetica Neue", "Helvetica", "Arial", "Sans serif";
+
+		/* color:#636363; */
+		
+		color:#ffffff;
+		
+		font-weight: bold;
+		
+		text-decoration: none;
+
+		/* background:url(images/az_template/cat_right.gif) no-repeat center right; */ 
+
+		text-transform:uppercase; 
+
+
+		/* font:bold 14px Helvetica; */
+
+		/* background:url(images/az_template/cat_right.gif) no-repeat top right; */
+
+		/* text-align: left; */ 
+
+		/* padding: 12px 0; */
+
+		
+
+	}
+
+	#topbar li.headlink a:hover { color:#636363; font-weight:bold; }
+
+	#topbar li.last a {
+
+	    color:#636363; 
+
+		/* background:url(images/az_template/cat_right_1.gif) no-repeat top right */;  
+
+	}
+
+	
+
+	#topbar li.cat_over { 
+
+	    color:#636363;
+
+	}
+
+		
+
+   #topbar li.cat_over a {
+
+	    color:#636363;
+	}
+
+     
+	#topbar li.cat_over_first {
+
+	    color:#636363;
+	}
+	
+	#topbar li.cat_over_last a {
+
+	    color:#636363; 
+	}
+
+
+	/* Child lists and links  */
+
+	#topbar li.headlink ul { 
+
+		font: 15px "Helvetica Neue", "Helvetica", "Arial", "Sans serif"; 
+		
+		color:#636363; 
+		
+		/* position:absolute; */  
+		
+		position:relative;  
+		
+		left:3px; top:3px; 
+
+		z-index:333;   
+
+		display: none;
+
+		background:white; 
+
+		border: 1px solid #b8b8b8; 
+
+		text-align: left;
+
+	}
+
+	#topbar li.headlink:hover ul { display: block; } 
+
+	#topbar li.headlink:hover a { color:#636363; font-weight:bold; }
+
+	#topbar li.headlink:hover ul li a { /* color:#374c61; */ color:#636363;}
+
+	#topbar li.headlink ul li a { 
+
+		text-align:left; 
+		margin:0 5px; 
+		padding: 1px 2px; 
+		height: 15px; 
+		font-weight:lighter;  
+		font: 12px "Helvetica Neue", "Helvetica", "Arial", "Sans serif"; 
+		color:#636363;   
+		background:none 
+
+	} 
+
+	#topbar li.headlink ul li a:hover 
+	
+	{color: #636363;  background-color: #d1d1d1; }
+
+	
+
+	/* Pretty styling */
+
+	#topbar a { color: #000000; } 
+	
+	#topbar ul li a:hover { text-decoration: none; }
+
+	#topbar li.headlink ul {  
+
+		padding: 5px 0 10px; 
+
+	}  
+
+	#topbar ul.three-levels {width:150px; list-style:none; padding:3px 4px !important;}
+	
+	 
+	#topbar ul.three-levels li { width:150px; background:none;}
+
+	#topbar ul.three-levels li.head {
+	    font: 12px Helvetica;color:#636363; 
+		float: left;  
+	} 
+
+	#topbar ul.three-levels li.head a{ text-align: left; 
+									   font-weight:normal}
+
+	#topbar ul.three-levels li.head ul {position:static; border:none; background:none; padding:5px 0 }
+
+	#topbar ul.three-levels li ul li a { 
+	
+	font:normal 12px Helvetica;color:#636363;
+
+	text-align: left ; 
+
+	margin:0 5px;
+
+	padding: 5px 12px;
+	
+	height: 15px;
+
+	background:none } 
+
+	
+	/* ######################################################### */
+/* # -------------------- BUTTON_LIST ------------------------ # */
+/* ######################################################### */
+
+#button_list{
+	display: block; 
+	width: 100%;  
+	/* border-top:1px solid white; */
+	position: relative; 
+	/* border-bottom:1px white solid; */
+	-webkit-user-select:none;
+	padding-bottom: 10px;  
+		
+}
+
+ #button_list div div{
+	margin: 30px 0 0 0;
+	text-shadow: 0px 1px 0px #FFF;
+} 
+
+#button_list #features li{
+	padding:0 0 25px 35px;
+	position: relative;
+}
+
+#button_list #features span{
+	-webkit-user-select:text;
+	color: #555555;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+#button_list h1{
+	-webkit-user-select:text;
+	margin-bottom: 20px;
+}
+
+#button_list #features li img{
+	position: absolute;
+	top:0px; left:0px;
+}
+
+#button_list #tweet, #button_list #mail{
+	width: 100%;
+	display: block;
+	margin-bottom: 40px;
+	margin-top: 0px;
+}
+
+#button_list #tweet .top, #button_list #mail .top{
+	display: block;
+	width: 100%; height:15px;
+	background-image: url(img/bg_twitter_top.png);
+}
+
+#button_list #tweet .body, #button_list #mail .body{
+	display: block;
+	padding: 0px 15px 0px 15px;
+	background-image: url(img/bg_twitter_body.png);
+}
+
+#button_list #tweet .body p, #button_list #mail .body p{
+	-webkit-user-select:text;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+#button_list #tweet .body p a{
+	color: #000;
+	text-decoration: none;
+}
+
+#button_list #tweet .body em{
+	-webkit-user-select:text;
+	display: block;
+	font-style: normal;
+	margin-top: 10px;
+	font-size: 12px;
+	color: #555555;
+}
+
+#button_list #tweet .body .follow{
+	display: block;
+	margin-top: 15px;
+	margin-left: -1px;
+	text-indent:-1000em; 
+	height: 39px; width: 248px;
+	background-image: url(img/bg_twitter_btn.png);
+}
+
+#button_list #tweet .body .follow:hover{
+	background-position: 0 -39px;
+}
+
+#button_list #tweet .bottom, #button_list #mail .bottom{
+	display: block;
+	width: 100%; height:15px;
+	background-image: url(img/bg_twitter_bottom.png);
+}
+
+#button_list #mail .text{
+	background: none;
+	background-image: url(img/bg_signmeup_textfield.png);
+	height: 34px;
+	width: 100%;
+	padding: 0px; 
+	margin: 0px 0px 15px 0px;
+	border: none;
+	font-size: 14px;
+	text-indent: 10px;
+	text-shadow: 0px 1px 0px #FFFFFF;
+	-webkit-appearance: none;
+	color: #444;
+	line-height: 34px;
+}
+
+
+@-moz-document url-prefix(){
+	#button_list #mail .text{ 
+		padding-top: 8px;
+		height: 26px;
+	}
+}
+
+#button_list #mail .text:focus, #button_list #mail .text:active{
+	background-position: 0 -34px;
+	color: #000;
+}
+
+#button_list #mail .body #submit{
+	background: none;
+	display: block;
+	border: none;
+	margin-left: -1px;
+	text-indent:-1000em;
+	height: 39px; width: 248px;
+	cursor: pointer;
+	background-image: url(img/bg_signmeup_btn.png);
+}
+
+#button_list #mail .body #submit:hover{
+	background-position: 0 -39px;
+}
+	
+	
+/*  TWITTER */
+#tweets {
+	width:245px;
+}
+
+#tweets li {
+	padding: 5px;
+	color:#333333;
+	border-bottom:1px solid #999999; 
+	line-height:150%;
+}
+
+#tweets li.tweet_content_0 {
+	border-top:0px none;
+}
+#tweets li:last-child{
+	border-bottom:0px none;	
+}
+
+#tweets .hash { color:#FFF; } 
+#tweets .reply { color:#FFF; } 
+
+a:link { text-decoration:underline; color:#FFF;}
+a:active { text-decoration:underline; color:#FFF;}
+a:hover { text-decoration:underline; color:#FFF;}
+a:visited { text-decoration:underline; color:#FFF;}
